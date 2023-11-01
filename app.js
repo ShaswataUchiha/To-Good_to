@@ -51,3 +51,39 @@ function loadingAnimationH1() {
 }
 loadingAnimationH1();
 
+document.addEventListener("mousemove", function(val){
+  gsap.to("#cursor", {
+    left : val.x,
+    top : val.y
+  })
+})
+
+// document.querySelector("#child1").addEventListener("mouseenter", function(){
+//   gsap.to("#cursor", {
+//     transform: 'translate(-50%,-50%) scale(1)'
+//   })
+// })
+
+// document.querySelector("#child1").addEventListener("mouseleave", function(){
+//   gsap.to("#cursor", {
+//     transform: 'translate(-50%,-50%) scale(1)'
+//   })
+// })
+
+// let a = document.querySelectorAll(".child");
+
+// a.forEach(function(elem){
+//   elem.addEventListener("mouseenter", function(){
+//     gsap.to("#cursor", {
+//       transform: 'translate(-50%,-50%) scale(1)'
+//     })
+//   })
+
+//   elem.addEventListener("mouseleave", function(){
+//     gsap.to("#cursor", {
+//       transform: 'translate(-50%,-50%) scale(0)'
+//     })
+//   })
+// })
+
+
