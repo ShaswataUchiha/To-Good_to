@@ -55,7 +55,17 @@ body{
 .icons{
     padding: 10px;
     border-radius: 50px;
-    /* background-color: #fff; */
+    background-color: #f7f7f7;
+}
+
+#nav-part1{
+    /* background-color: red; */
+    height: 82px;
+    overflow: hidden;
+}
+
+#nav-part1 svg{
+    display: block;
 }
 
 #nav-part2 .icons i{
